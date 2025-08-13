@@ -24,22 +24,22 @@ It also automatically **compares performance** and suggests the **best schedulin
 
 ### **Linux / macOS**
 
-g++ -std=c++98 main.cpp -o scheduling
+g++ -std=c++98 main.cpp -o scheduling<br>
 ./scheduling
 
 
-### **Windows*
+### *Windows*
 
-g++ -std=c++98 main.cpp -o scheduling.exe
-scheduling.exe
+g++ -std=c++98 main.cpp -o scheduling.exe<br>
+scheduling.exe<br>
 📥 Sample Input
 
-4
-0 8 2
-1 4 1
-2 9 3
-3 5 2
-2
+4<br>
+0 8 2<br>
+1 4 1<br>
+2 9 3<br>
+3 5 2<br>
+2<br>
 Explanation:
 
 First line: 4 → Number of processes
@@ -50,7 +50,7 @@ Last line: Quantum for Round Robin (2 in this example)
 
 📤 Sample Output
 
---- First-Come First-Served (FCFS) Results ---
+--- First-Come First-Served (FCFS) Results ---<br>
 Process 1 | Arrival: 0 | Burst: 8 | Priority: 2 | Completion: 8 | Turnaround: 8 | Waiting: 0<br>
 Process 2 | Arrival: 1 | Burst: 4 | Priority: 1 | Completion: 12 | Turnaroun: 11 | Waiting: 7<br>
 Process 3 | Arrival: 2 | Burst: 9 | Priority: 3 | Completion: 21 | Turnaround: 19 | Waiting: 10<br>
