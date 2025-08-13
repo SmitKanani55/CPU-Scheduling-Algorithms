@@ -53,3 +53,29 @@ Last line: Quantum for Round Robin (2 in this example)
 --- First-Come First-Served (FCFS) Results ---
 Process 1 | Arrival: 0 | Burst: 8 | Priority: 2 | Completion: 8 | Turnaround: 8 | Waiting: 0
 Process 2 | Arrival: 1 | Burst: 4 | Priority: 1 | Completion: 12 | Turnaroun
+Process 3 | Arrival: 2 | Burst: 9 | Priority: 3 | Completion: 21 | Turnaround: 19 | Waiting: 10
+Process 4 | Arrival: 3 | Burst: 5 | Priority: 2 | Completion: 26 | Turnaround: 23 | Waiting: 18
+
+Average Turnaround Time: 15.25
+Average Waiting Time: 8.75
+CPU Utilization: 100%
+
+...
+
+>>> Best suited algorithm based on Average Turnaround Time: Shortest Job First (SJF) <<<
+
+🏆 Best Algorithm Recommendation
+After running all four algorithms, the program selects the one with the lowest average turnaround time and displays it.
+
+🛠️ Requirements
+C++ Compiler (GCC, Clang, MinGW)
+
+Works with C++98 standard (no need for -std=c++11)
+
+📜 License
+This project is open-source under the MIT License.
+
+🤝 Contributing
+Pull requests are welcome!
+If you have suggestions for additional features (e.g., preemptive SJF or Priority), feel free to open an issue.
+
