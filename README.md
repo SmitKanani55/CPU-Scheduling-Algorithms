@@ -1,7 +1,9 @@
 # 🖥️ CPU Scheduling Algorithms in C++ (C++98 Compatible)
 
-This project implements **four classic CPU scheduling algorithms** in C++, designed to work even with **C++98 compilers** (no modern C++11+ features required).  
-It also automatically **compares performance** and suggests the **best scheduling method** based on **average turnaround time**.
+This project implements four classic CPU scheduling algorithms — First-Come First-Served (FCFS), Shortest Job First (SJF), Priority Scheduling, and Round Robin (RR) — entirely in C++98 for maximum compatibility.
+
+What is C++98?
+C++98 is the first standardized version of the C++ programming language, released in 1998. It does not include newer features like auto, range-based loops, or lambdas, making it ideal for environments where only older compilers are available
 
 ---
 
@@ -41,6 +43,7 @@ scheduling.exe<br>
 2 9 3<br>
 3 5 2<br>
 2<br>
+
 Explanation:
 
 First line: 4 → Number of processes
