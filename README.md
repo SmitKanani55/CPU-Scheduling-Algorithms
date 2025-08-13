@@ -32,6 +32,7 @@ g++ -std=c++98 main.cpp -o scheduling<br>
 
 g++ -std=c++98 main.cpp -o scheduling.exe<br>
 scheduling.exe<br>
+
 📥 Sample Input
 
 4<br>
@@ -60,9 +61,9 @@ Average Turnaround Time: 15.25
 Average Waiting Time: 8.75
 CPU Utilization: 100%
 
-...
+Best suited algorithm based on Average Turnaround Time: Shortest Job First (SJF) 
 
->>> Best suited algorithm based on Average Turnaround Time: Shortest Job First (SJF) <<<
+...
 
 🏆 Best Algorithm Recommendation
 After running all four algorithms, the program selects the one with the lowest average turnaround time and displays it.
