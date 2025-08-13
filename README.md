@@ -51,10 +51,10 @@ Last line: Quantum for Round Robin (2 in this example)
 📤 Sample Output
 
 --- First-Come First-Served (FCFS) Results ---
-Process 1 | Arrival: 0 | Burst: 8 | Priority: 2 | Completion: 8 | Turnaround: 8 | Waiting: 0
-Process 2 | Arrival: 1 | Burst: 4 | Priority: 1 | Completion: 12 | Turnaroun
-Process 3 | Arrival: 2 | Burst: 9 | Priority: 3 | Completion: 21 | Turnaround: 19 | Waiting: 10
-Process 4 | Arrival: 3 | Burst: 5 | Priority: 2 | Completion: 26 | Turnaround: 23 | Waiting: 18
+Process 1 | Arrival: 0 | Burst: 8 | Priority: 2 | Completion: 8 | Turnaround: 8 | Waiting: 0<br>
+Process 2 | Arrival: 1 | Burst: 4 | Priority: 1 | Completion: 12 | Turnaroun: 11 | Waiting: 7<br>
+Process 3 | Arrival: 2 | Burst: 9 | Priority: 3 | Completion: 21 | Turnaround: 19 | Waiting: 10<br>
+Process 4 | Arrival: 3 | Burst: 5 | Priority: 2 | Completion: 26 | Turnaround: 23 | Waiting: 18<br>
 
 Average Turnaround Time: 15.25
 Average Waiting Time: 8.75
